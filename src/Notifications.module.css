@@ -1,0 +1,43 @@
+.notificationBlock {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    border: 1px solid black;
+}
+
+.notificationBlock img {
+    width: 5%;
+    height: 5%;
+}
+
+.user {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.action {
+    color: gray;
+}
+
+.post {
+    font-weight: bold;
+    color: gray;
+    cursor: pointer;
+}
+
+.post:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+.group {
+    font-weight: bold;
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.time {
+    color: gray;
+}

@@ -1,0 +1,18 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .header button {
+    border: none;
+    background-color: transparent;
+}
