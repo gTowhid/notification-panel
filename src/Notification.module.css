@@ -1,0 +1,61 @@
+.notificationBlock {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  font-size: 80%;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.notificationBlock div p:first-child {
+  margin-bottom: -8px;
+}
+
+.notificationBlock img {
+  width: 7%;
+  height: 7%;
+  margin: auto 15px;
+}
+
+.user {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.action {
+  color: gray;
+}
+
+.post {
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+
+.post:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.group {
+  font-weight: bold;
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
+.time {
+  color: gray;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
