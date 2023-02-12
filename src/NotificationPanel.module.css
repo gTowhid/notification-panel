@@ -36,3 +36,22 @@
   font-weight: bold;
   font-size: 90%;
 }
+
+@media(max-width: 1200px) {
+  .container {
+    width: 50vw;
+  }
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 70vw;
+  }
+}
+
+@media(max-width: 600px) {
+  .container {
+    width: 80vw;
+  }
+}
+

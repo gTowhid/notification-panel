@@ -6,15 +6,16 @@
   font-size: 80%;
   margin-bottom: 8px;
   border-radius: 8px;
+  position: relative;
 }
 
 .notificationBlock div p:first-child {
   margin-bottom: -8px;
 }
 
-.notificationBlock img {
-  width: 7%;
-  height: 7%;
+.notificationBlock .avatar {
+  width: 40px;
+  height: 40px;
   margin: auto 15px;
 }
 
@@ -58,4 +59,32 @@
   border-radius: 50%;
   display: inline-block;
   margin-left: 5px;
+}
+
+.notificationBlock .picture {
+ background-image: url('./assets/images/image-chess.webp');
+ height: 45px;
+ width: 45px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ right: 5%;
+}
+
+.notificationBlock .picture:hover {
+  border: 2px solid hsl(219, 14%, 63%);
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .notificationBlock .info {
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  .notificationBlock .info {
+    max-width: 160px;
+  }
 }

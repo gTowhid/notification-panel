@@ -32,9 +32,9 @@ export default function Notification({
         backgroundColor: read ? 'white' : 'hsl(210, 60%, 98%)',
       }}
     >
-      <img src={require('./assets/images/' + avt)} alt="avatar" />
+      <img className={classes.avatar} src={require('./assets/images/' + avt)} alt="avatar" />
 
-      <div>
+      <div className={pct && classes.info}>
         <p>
           <span className={classes.user}>{user}</span>
           <span className={classes.action}> {action}</span>
@@ -47,13 +47,9 @@ export default function Notification({
         </p>
       </div>
 
-      {pct && (
-        <img
-          className={classes.picture}
-          src={require('./assets/images/' + pct)}
-          alt=""
-        />
-      )}
+      {pct &&
+        <div className={classes.picture}></div>
+      }
     </div>
   );
 }
